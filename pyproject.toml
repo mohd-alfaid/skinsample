@@ -11,7 +11,7 @@ homepage = "https://github.com/Siddhesh-Agarwal/skin-cancer-detection"
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
 streamlit = "^1.38.0"  # Latest compatible version
-tensorflow-io-gcs-filesystem = "0.37.1"  # Keep this version as it is
+tensorflow-io-gcs-filesystem = "0.27.0"  # Keep this version as it is
 tensorflow = "2.12.0"  # Updated version to a stable one
 streamlit-lottie = "^0.0.5"
 geopy = "^2.4.1"
