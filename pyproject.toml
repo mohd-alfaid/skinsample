@@ -9,10 +9,13 @@ package-mode = false
 homepage = "https://github.com/Siddhesh-Agarwal/skin-cancer-detection"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.11"
+python = "^3.10"
+tensorflow = "2.13.0"
+keras = "2.13.1"
+tensorboard = "2.13.0"
+# Add other dependencies here
 streamlit = "^1.38.0"  # Latest compatible version
 tensorflow-io-gcs-filesystem = "0.27.0"  # Keep this version as it is
-tensorflow = "2.12.0"  # Updated version to a stable one
 streamlit-lottie = "^0.0.5"
 geopy = "^2.4.1"
 
